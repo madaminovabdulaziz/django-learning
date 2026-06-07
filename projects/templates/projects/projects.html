@@ -1,0 +1,18 @@
+{% extends 'main.html' %}
+
+
+{% block content %}
+
+<p>You are on {{page}} page </p>
+
+
+{% if number > 10%}
+    <p>Number is greater then {{number}}</p>
+{% else %}
+    <p>Number is the less then {{number}}</p>
+{% endif %}
+
+<h1>Projects Template</h1 >
+
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, consequatur pariatur accusamus ipsa voluptatibus similique provident dolorum animi sint asperiores earum minima hic sapiente placeat alias mollitia esse rem veniam.</p>
+{% endblock content %}
